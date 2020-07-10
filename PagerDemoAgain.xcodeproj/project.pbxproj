@@ -8,13 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		8BDF8F0924B2D9C6007306D7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BDF8F0824B2D9C6007306D7 /* AppDelegate.swift */; };
-		8BDF8F0B24B2D9C6007306D7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BDF8F0A24B2D9C6007306D7 /* SceneDelegate.swift */; };
-		8BDF8F0D24B2D9C6007306D7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BDF8F0C24B2D9C6007306D7 /* ViewController.swift */; };
 		8BDF8F1024B2D9C6007306D7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8BDF8F0E24B2D9C6007306D7 /* Main.storyboard */; };
 		8BDF8F1224B2D9CA007306D7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8BDF8F1124B2D9CA007306D7 /* Assets.xcassets */; };
 		8BDF8F1524B2D9CA007306D7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8BDF8F1324B2D9CA007306D7 /* LaunchScreen.storyboard */; };
 		8BDF8F2024B2D9CA007306D7 /* PagerDemoAgainTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BDF8F1F24B2D9CA007306D7 /* PagerDemoAgainTests.swift */; };
 		8BDF8F2B24B2D9CA007306D7 /* PagerDemoAgainUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BDF8F2A24B2D9CA007306D7 /* PagerDemoAgainUITests.swift */; };
+		8BDF8F3924B2DA70007306D7 /* PagerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BDF8F3824B2DA70007306D7 /* PagerViewController.swift */; };
+		8BDF8F3B24B52A04007306D7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BDF8F3A24B52A04007306D7 /* SceneDelegate.swift */; };
+		8BDF8F3D24B55547007306D7 /* PagerViewContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BDF8F3C24B55547007306D7 /* PagerViewContainer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,8 +38,6 @@
 /* Begin PBXFileReference section */
 		8BDF8F0524B2D9C6007306D7 /* PagerDemoAgain.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PagerDemoAgain.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8BDF8F0824B2D9C6007306D7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		8BDF8F0A24B2D9C6007306D7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		8BDF8F0C24B2D9C6007306D7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		8BDF8F0F24B2D9C6007306D7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8BDF8F1124B2D9CA007306D7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8BDF8F1424B2D9CA007306D7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +48,9 @@
 		8BDF8F2624B2D9CA007306D7 /* PagerDemoAgainUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PagerDemoAgainUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8BDF8F2A24B2D9CA007306D7 /* PagerDemoAgainUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PagerDemoAgainUITests.swift; sourceTree = "<group>"; };
 		8BDF8F2C24B2D9CA007306D7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8BDF8F3824B2DA70007306D7 /* PagerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PagerViewController.swift; sourceTree = "<group>"; };
+		8BDF8F3A24B52A04007306D7 /* SceneDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		8BDF8F3C24B55547007306D7 /* PagerViewContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PagerViewContainer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,10 +101,11 @@
 		8BDF8F0724B2D9C6007306D7 /* PagerDemoAgain */ = {
 			isa = PBXGroup;
 			children = (
+				8BDF8F3A24B52A04007306D7 /* SceneDelegate.swift */,
+				8BDF8F3C24B55547007306D7 /* PagerViewContainer.swift */,
 				8BDF8F0824B2D9C6007306D7 /* AppDelegate.swift */,
-				8BDF8F0A24B2D9C6007306D7 /* SceneDelegate.swift */,
-				8BDF8F0C24B2D9C6007306D7 /* ViewController.swift */,
 				8BDF8F0E24B2D9C6007306D7 /* Main.storyboard */,
+				8BDF8F3824B2DA70007306D7 /* PagerViewController.swift */,
 				8BDF8F1124B2D9CA007306D7 /* Assets.xcassets */,
 				8BDF8F1324B2D9CA007306D7 /* LaunchScreen.storyboard */,
 				8BDF8F1624B2D9CA007306D7 /* Info.plist */,
@@ -259,9 +262,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8BDF8F0D24B2D9C6007306D7 /* ViewController.swift in Sources */,
+				8BDF8F3D24B55547007306D7 /* PagerViewContainer.swift in Sources */,
+				8BDF8F3924B2DA70007306D7 /* PagerViewController.swift in Sources */,
 				8BDF8F0924B2D9C6007306D7 /* AppDelegate.swift in Sources */,
-				8BDF8F0B24B2D9C6007306D7 /* SceneDelegate.swift in Sources */,
+				8BDF8F3B24B52A04007306D7 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
